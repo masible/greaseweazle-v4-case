@@ -12,7 +12,7 @@ drive_depth = 150;
 distance_drive_to_back = 68;
 
 module gw_pos() {
-    translate([18, 183, 0]) children();
+    translate([12, 190.825, 0]) children();
 }
 
 module cutouts() {
@@ -21,7 +21,7 @@ module cutouts() {
     translate([0,0,6]) drive_block();
 
     // USB port
-    translate([42, drive_depth + distance_drive_to_back, 12.5]) cube([12.5, 12, 12], center=true);
+    translate([-13.875, drive_depth + distance_drive_to_back, 12.5]) cube([12.5, 12, 12], center=true);
 }
 
 module case_top() { 
