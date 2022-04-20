@@ -1,4 +1,4 @@
-// Case for Greaseweazle F7 board and 3.5" floppy drive
+// Case for Greaseweazle v4 board and 3.5" floppy drive
 // License: CC BY-SA 4.0
 
 use <GW v4 - Box.scad>;
