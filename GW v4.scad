@@ -1,9 +1,9 @@
 // Case for Greaseweazle F7 board and 3.5" floppy drive
 // License: CC BY-SA 4.0
 
-use <GW F7 lightning plus - Box.scad>;
-use <GW F7 lightning plus - GW.scad>;
-include <GW F7 lightning plus - Drive.scad>;
+use <GW v4 - Box.scad>;
+use <GW v4 - GW.scad>;
+include <GW v4 - Drive.scad>;
 
 $fn = 32;
 drive_width = 101.6;
