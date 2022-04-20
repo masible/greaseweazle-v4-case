@@ -1,1 +1,0 @@
-Case for Greaseweazle F7 Lightning Plus and 3.5" floppy drive by n13ldo on Thingiverse: https://www.thingiverse.com/thing:4920473
