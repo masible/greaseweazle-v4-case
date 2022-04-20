@@ -58,6 +58,9 @@ module case_bottom() {
 // Include the floppy drive model
 //translate([0, -0.1, 5]) drive(colour="lightgrey");
 
+// Include greaseweazle model
+//gw_pos() gw();
+
 intersection() {
     union() {
         
