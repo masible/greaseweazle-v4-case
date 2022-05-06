@@ -13,8 +13,8 @@ module gw_holes() {
     }
     */
     
-    x = (72.35-(.7+1.86))/2;
-    y = (48.35-(.7+1.86))/2;
+    x = (72.43-(.8+2))/2;
+    y = (48.42-(.8+2))/2;
     
     translate([x, y]) children();
     translate([-x, y]) children();
@@ -30,7 +30,7 @@ module gw() {
         }
         color("black") translate([6.825, -19.175, 6]) cube([50, 10, 10], center=true);
         color("white") translate([-26.745, -19.175, 4]) cube([10, 10, 5], center=true);
-        color("grey") translate([-25.675, 17.175, 6.5]) cube([12, 14, 10.5], center=true);
+        color("grey") translate([-25.485, 17.175, 6.5]) cube([12, 14, 10.5], center=true);
     }
 }
 
