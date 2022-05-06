@@ -21,7 +21,7 @@ module cutouts() {
     translate([0,0,6]) drive_block();
 
     // USB port
-    translate([-13.875, drive_depth + distance_drive_to_back, 12.5]) cube([12.5, 12, 12], center=true);
+    translate([-13.525, drive_depth + distance_drive_to_back, 12.5]) cube([12.5, 12, 12], center=true);
 }
 
 module case_top() { 
