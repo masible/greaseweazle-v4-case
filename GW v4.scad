@@ -51,7 +51,7 @@ module case_bottom() {
    
     difference() {
         gw_pos() gw_holes() cylinder(d=6.5, h=5);
-        translate([0, 0, 2]) gw_pos() gw_holes() cylinder(d=2.7, h=5);
+        translate([0, 0, 2]) gw_pos() gw_holes() cylinder(d=3.15, h=5);
     }
 }
 
