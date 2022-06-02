@@ -55,6 +55,59 @@ module case_bottom() {
     }
 }
 
+module bottom_cube() {
+     translate([-100, -0.1, -0.1])
+     cube([200, 85.1, 50], center=false);
+}
+
+module case_bottom_front() {
+    intersection() {
+        case_bottom();
+        bottom_cube();
+    }
+}
+
+module case_bottom_back() {
+    difference() {
+        case_bottom();
+        bottom_cube();
+    }
+}
+
+module top_cube() {
+    translate([-100, 39, 0])
+    cube([200, 140, 100]);
+}
+
+module case_top_middle() {
+    intersection() {
+        case_top();
+        top_cube();
+    }
+}
+
+module case_top_front() {
+    difference() {
+        case_top();
+        union() {
+            top_cube();
+            translate([-100, 130, 0])
+            cube([200, 200, 200]);
+        }
+    }
+}
+
+module case_top_back() {
+    difference() {
+        case_top();
+        union() {
+            top_cube();
+            translate([-100, 0, 0])
+            cube([200, 40, 200]);
+        }
+    }
+}
+
 // Include the floppy drive model
 //translate([0, -0.1, 5]) drive(colour="lightgrey");
 
