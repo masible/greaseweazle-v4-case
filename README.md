@@ -2,6 +2,10 @@
 
 Case for Greaseweazle v4 and 3.5" floppy drive by hadessuk.
 
+![preview](images/preview.png)
+
+![photo](images/case.jpg)
+
 ### Parts
 
 Knurled brass threaded inserts:
