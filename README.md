@@ -11,13 +11,13 @@ Case for Greaseweazle v4 and 3.5" floppy drive by hadessuk.
 Knurled brass threaded inserts:
 
 - 8 x M3x5 (for the case)
-- 4 x M2x5 (for the Greasewezle)
+- 4 x M2x5 (for the Greaseweazle)
 
 Bolts:
 
 - 8 x M3x10 hex (for the case)
-- 4 x M2x4 hex (for the Greasewezle)
-- 4 x M3x5 philips (to mount drive)
+- 4 x M2x4 hex (for the Greaseweazle)
+- 4 x M3x5 Phillips (to mount drive)
 
 To complete the device, you will also need a working 3.5" drive, a floppy drive
 ribbon cable, and either jumper cables or a cable with a Berg connector, and
@@ -50,7 +50,7 @@ printed, sequentially, in one sitting, even on a small printer.
 
 - The "small" top case flexes a bit too much and could do with having a lip that prevents this.
 - The holes for mounting the Greaseweazle are a bit too unforgiving when brass inserts are mounted.
-- The USB port hold could be moved left to accommodate shorter ribbon cables.
+- The USB port hole could be moved left to accommodate shorter ribbon cables.
 - The holes in the bottom case are ever so slightly too tight for common hex head screws.
 
 ### License
