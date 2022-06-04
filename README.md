@@ -22,6 +22,12 @@ a [Greaseweazle v4](https://www.sordan.ie/product/1003/greaseweazle-v4-usb-flopp
 This case requires the drive to be powered by the Greaseweazle, and makes no
 accommodation for drives that require too much power or 12V.
 
+### STL files
+
+STL files are available on Printables.com.
+
+You can also generate them on Unix systems if `openscad` is in your `PATH` by running `make`.
+
 ### Model variants
 
 2 different set of models exist.
