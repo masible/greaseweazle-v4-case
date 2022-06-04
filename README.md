@@ -28,7 +28,7 @@ accommodation for drives that require too much power or 12V.
 
 ### STL files
 
-STL files are available on Printables.com.
+STL files are [available on Printables.com](https://www.printables.com/model/219991-case-for-greaseweazle-v4-and-35-floppy-drive).
 
 You can also generate them on Unix systems if `openscad` is in your `PATH` by running `make`.
 
